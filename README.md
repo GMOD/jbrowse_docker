@@ -30,7 +30,7 @@ requires a fresh build.  Because this container makes use of
 * Data files stored elsewhere (AWS S3)
 the resulting Docker image is generally quite small (~200kb or less).
 
-#JBrowse 2
+# JBrowse 2
 
 This is still under active development and not in a stable git branch
 that I can point at; this will be updated soon.
