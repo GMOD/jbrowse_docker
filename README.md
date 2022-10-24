@@ -30,6 +30,13 @@ requires a fresh build.  Because this container makes use of
 * Data files stored elsewhere (AWS S3)
 the resulting Docker image is generally quite small (~200kb or less).
 
+## Other repos that make use of gmod/jbrowse-buildenv
+
+* WormBase's main genome browser - https://github.com/WormBase/website-genome-browsers/blob/jbrowse-production/jbrowse/Dockerfile
+* WormBase's amino acid browser - https://github.com/WormBase/website-genome-browsers/blob/protein_schematic_production/protein_schematic/Dockerfile
+* Development version of ZFIN's genome browser - https://github.com/alliance-genome/agr_jbrowse_zfin/blob/main/Dockerfile
+* A SARS-CoV-2 browser at http://covid19.jbrowse.org/ (not updated recently)
+
 # JBrowse 2
 
 This is still under active development and not in a stable git branch
